@@ -1,0 +1,23 @@
+Custom CNN - eğitim özeti
+============================================================
+Oturum başlangıcı:  2026-06-17 01:26:29
+Oturum bitişi:      2026-06-17 04:16:13  (169.7 dakika)
+Devam edilen epoch: 9
+Tamamlanan epoch:   25 / 25
+
+En iyi doğrulama doğruluğu: 0.9463 (epoch 24)
+En düşük doğrulama kaybı:   0.1891
+
+Parametre sayısı: 457,156 (eğitilebilir 456,196, dondurulmuş 960)
+Öğrenme oranı: 0.0005 | Batch: 32 | Tohum: 42
+Callback'ler: EarlyStopping(val_loss, patience=5), ReduceLROnPlateau(0.2, patience=3)
+
+En iyi model: models/custom_cnn_best.keras
+Son model:    models/custom_cnn_last.keras
+
+Not: Bu eğitim iki oturumda tamamlandı. İlk 9 epoch'tan sonra son checkpoint'ten
+devam eden ikinci bir süreç başlatıldı; ilk süreç de o sırada çalışmaya devam etti ve
+iki süreç aynı checkpoint dosyalarına yazdı. Kayıtlı model (custom_cnn_best.keras),
+ikinci sürecin 24. epoch'unda kaydedilen modeldir; bu dosyadaki geçmiş onun soy
+ağacıdır (epoch 1-9 ilk süreç, epoch 10-25 ikinci süreç). İki sürecin ham kayıtları
+custom_cnn_epoch_log.txt dosyasında iç içe durur. Ayrıntı: README, 'Eğitim notu'.

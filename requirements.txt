@@ -1,0 +1,11 @@
+# Proje Python 3.12 ve Keras 3.13 (TensorFlow ile gelen sürüm) ile geliştirildi;
+# models/ altındaki .keras dosyaları bu sürümle kaydedildi.
+tensorflow
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+opencv-python
+pillow
+streamlit

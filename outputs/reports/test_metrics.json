@@ -1,0 +1,24 @@
+[
+  {
+    "key": "custom_cnn",
+    "display_name": "Custom CNN",
+    "val_accuracy": 0.9463,
+    "test_accuracy": 0.9425925925925925,
+    "macro_f1": 0.9426954833932134,
+    "binary_accuracy": 0.9805555555555555,
+    "binary_recall": 0.9765432098765432,
+    "binary_specificity": 0.9925925925925926,
+    "param_count": 457156
+  },
+  {
+    "key": "mobilenetv2_finetuned",
+    "display_name": "MobileNetV2 Fine-Tuned",
+    "val_accuracy": 0.9342592358589172,
+    "test_accuracy": 0.9333333333333333,
+    "macro_f1": 0.9336207126232814,
+    "binary_accuracy": 0.9842592592592593,
+    "binary_recall": 0.9901234567901235,
+    "binary_specificity": 0.9666666666666667,
+    "param_count": 2263108
+  }
+]

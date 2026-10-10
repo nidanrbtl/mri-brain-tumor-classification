@@ -1,0 +1,22 @@
+Custom CNN - tümör var/yok değerlendirmesi
+============================================================
+Kural: no_tumor -> tümör yok (0); glioma / meningioma / pituitary -> tümör var (1)
+
+Doğruluk:   0.9806
+Kesinlik:   0.9975
+Duyarlılık: 0.9765
+Özgüllük:   0.9926
+F1:         0.9869
+
+              precision    recall  f1-score   support
+
+    no_tumor       0.93      0.99      0.96       270
+       tumor       1.00      0.98      0.99       810
+
+    accuracy                           0.98      1080
+   macro avg       0.97      0.98      0.97      1080
+weighted avg       0.98      0.98      0.98      1080
+
+Karışıklık matrisi (satır = gerçek, sütun = tahmin; sıra ['no_tumor', 'tumor']):
+[[268   2]
+ [ 19 791]]

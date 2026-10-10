@@ -1,0 +1,14 @@
+Model karşılaştırması (test seti)
+============================================================
+Test örneği: 1080
+
+Model                      Doğr.(val) Doğr.(test)  Makro F1  Var/yok   Parametre
+--------------------------------------------------------------------------------
+Custom CNN                     0.9463      0.9426    0.9427   0.9806     457,156
+MobileNetV2 Fine-Tuned         0.9343      0.9333    0.9336   0.9843   2,263,108
+
+En sık karıştırılan sınıflar (gerçek -> tahmin):
+  Custom CNN: glioma -> meningioma (20), pituitary -> meningioma (11), meningioma -> no_tumor (9), glioma -> no_tumor (7), pituitary -> glioma (4)
+  MobileNetV2 Fine-Tuned: glioma -> meningioma (24), meningioma -> pituitary (13), pituitary -> meningioma (9), meningioma -> glioma (9), no_tumor -> meningioma (7)
+
+Test doğruluğunun standart hatası yaklaşık ±0.008'tür; modeller arasındaki bundan küçük farklar tek bir test setiyle ayırt edilemez.

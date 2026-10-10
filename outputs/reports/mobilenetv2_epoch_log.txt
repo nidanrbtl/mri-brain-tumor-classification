@@ -1,0 +1,17 @@
+MobileNetV2 Epoch Log
+============================================================
+[2026-06-17 04:39:08] Epoch 1 | loss=0.9941 | accuracy=0.5833 | val_loss=0.6159 | val_accuracy=0.7870 | lr=n/a
+[2026-06-17 04:41:55] Epoch 2 | loss=0.6205 | accuracy=0.7625 | val_loss=0.5111 | val_accuracy=0.8130 | lr=n/a
+[2026-06-17 04:44:40] Epoch 3 | loss=0.5292 | accuracy=0.8016 | val_loss=0.4544 | val_accuracy=0.8333 | lr=n/a
+[2026-06-17 04:47:25] Epoch 4 | loss=0.4768 | accuracy=0.8208 | val_loss=0.4490 | val_accuracy=0.8333 | lr=n/a
+[2026-06-17 04:50:10] Epoch 5 | loss=0.4389 | accuracy=0.8351 | val_loss=0.4161 | val_accuracy=0.8481 | lr=n/a
+[2026-06-17 04:52:56] Epoch 6 | loss=0.4347 | accuracy=0.8280 | val_loss=0.4062 | val_accuracy=0.8500 | lr=n/a
+[2026-06-17 04:55:43] Epoch 7 | loss=0.4165 | accuracy=0.8458 | val_loss=0.3928 | val_accuracy=0.8546 | lr=n/a
+[2026-06-17 04:58:33] Epoch 8 | loss=0.3930 | accuracy=0.8526 | val_loss=0.3842 | val_accuracy=0.8546 | lr=n/a
+[2026-06-17 05:01:20] Epoch 9 | loss=0.3810 | accuracy=0.8569 | val_loss=0.3534 | val_accuracy=0.8694 | lr=n/a
+[2026-06-17 05:04:07] Epoch 10 | loss=0.3675 | accuracy=0.8651 | val_loss=0.3518 | val_accuracy=0.8667 | lr=n/a
+[2026-06-17 05:06:57] Epoch 11 | loss=0.3635 | accuracy=0.8631 | val_loss=0.3741 | val_accuracy=0.8639 | lr=n/a
+[2026-06-17 05:09:49] Epoch 12 | loss=0.3604 | accuracy=0.8667 | val_loss=0.3434 | val_accuracy=0.8713 | lr=n/a
+[2026-06-17 05:12:41] Epoch 13 | loss=0.3479 | accuracy=0.8748 | val_loss=0.3361 | val_accuracy=0.8731 | lr=n/a
+[2026-06-17 05:15:30] Epoch 14 | loss=0.3411 | accuracy=0.8677 | val_loss=0.3490 | val_accuracy=0.8694 | lr=n/a
+[2026-06-17 05:18:19] Epoch 15 | loss=0.3439 | accuracy=0.8716 | val_loss=0.3481 | val_accuracy=0.8713 | lr=n/a

@@ -1,0 +1,28 @@
+Veri seti özeti
+============================================================
+Geçerli görüntü: 7200
+Bozuk / okunamayan görüntü: 0
+
+Sınıf başına görüntü:
+  glioma: 1800
+  meningioma: 1800
+  pituitary: 1800
+  no_tumor: 1800
+
+Eğitim (5040 görüntü):
+  glioma: 1260
+  meningioma: 1260
+  pituitary: 1260
+  no_tumor: 1260
+
+Doğrulama (1080 görüntü):
+  glioma: 270
+  meningioma: 270
+  pituitary: 270
+  no_tumor: 270
+
+Test (1080 görüntü):
+  glioma: 270
+  meningioma: 270
+  pituitary: 270
+  no_tumor: 270

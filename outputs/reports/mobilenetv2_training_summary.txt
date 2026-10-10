@@ -1,0 +1,16 @@
+MobileNetV2 (özellik çıkarımı) - eğitim özeti
+============================================================
+Oturum başlangıcı:  2026-06-17 04:36:41
+Oturum bitişi:      2026-06-17 05:18:21  (41.7 dakika)
+Devam edilen epoch: 0
+Tamamlanan epoch:   15 / 15
+
+En iyi doğrulama doğruluğu: 0.8731 (epoch 13)
+En düşük doğrulama kaybı:   0.3361
+
+Parametre sayısı: 2,263,108 (eğitilebilir 5,124, dondurulmuş 2,257,984)
+Öğrenme oranı: 0.0003 | Batch: 32 | Tohum: 42
+Callback'ler: EarlyStopping(val_loss, patience=5), ReduceLROnPlateau(0.2, patience=3)
+
+En iyi model: models/mobilenetv2_best.keras
+Son model:    models/mobilenetv2_last.keras

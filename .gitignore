@@ -1,0 +1,25 @@
+# Veri seti depoya dahil değil (bkz. data/README.md)
+data/raw/*
+!data/raw/.gitkeep
+
+# Yalnızca iki nihai model depoda tutulur; ara checkpoint'ler ve eğitim kilitleri tutulmaz
+models/*
+!models/custom_cnn_best.keras
+!models/mobilenetv2_finetuned_best.keras
+
+# Eğitim sırasında oluşan büyük konsol kayıtları (yerel dosya yolları içerir)
+outputs/reports/*_console_log.txt
+outputs/reports/duplicate_images.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editör / işletim sistemi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,22 @@
+MobileNetV2 Fine-Tuned - tümör var/yok değerlendirmesi
+============================================================
+Kural: no_tumor -> tümör yok (0); glioma / meningioma / pituitary -> tümör var (1)
+
+Doğruluk:   0.9843
+Kesinlik:   0.9889
+Duyarlılık: 0.9901
+Özgüllük:   0.9667
+F1:         0.9895
+
+              precision    recall  f1-score   support
+
+    no_tumor       0.97      0.97      0.97       270
+       tumor       0.99      0.99      0.99       810
+
+    accuracy                           0.98      1080
+   macro avg       0.98      0.98      0.98      1080
+weighted avg       0.98      0.98      0.98      1080
+
+Karışıklık matrisi (satır = gerçek, sütun = tahmin; sıra ['no_tumor', 'tumor']):
+[[261   9]
+ [  8 802]]
